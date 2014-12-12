@@ -23,26 +23,100 @@ var bs = bs = new Bigstock({
 
 The Bigstock client comes with some useful objects for you to utilize in your node.js project. All API endpoints return a promise object.
 
-### Bigstock.asset(id, type)
+### Bigstock
+
+#### Bigstock.asset(id, type)
 Fetches an asset from the Bigstock API endpoint
 
-### Bigstock.image(id)
-Alias for Bigstock.asset - Returns an Image object
+#### Bigstock.image(id)
+Alias for Bigstock.asset - Returns a BigImage object
 
-### Bigstock.video(id)
+#### Bigstock.video(id)
 Alias for Bigstock.asset - Returns a Video object
 
-### Bigstock.purchase(id, type, size)
+#### Bigstock.purchase(id, type, size)
 Returns a Purchase object and id for you to generate a download URL
 
-### Bigstock.lightbox(id, params, shareKey)
+#### Bigstock.lightbox(id, params, shareKey)
 Returns a Lightbox object
 
-### Bigstock.search(query, params)
+#### Bigstock.search(query, params)
 Returns a Search object
 
-### Bigstock.category(language)
+#### Bigstock.category(language)
 Returns a Category object
+
+### BigImage
+
+#### BigImage.toJSON()
+Returns the full object details in JSON
+
+### Video
+
+#### Video.toJSON()
+Returns the full object details in JSON
+
+### Purchase
+
+#### Purchase.getResponse()
+Returns the raw response from the API server
+
+#### Purchase.toJSON()
+Returns the full object details in JSON
+
+### Lightbox
+
+#### Lightbox.hasNextPage()
+Determines if there is another page to lightbox
+
+#### Lightbox.hasPrevPage()
+Determines if there is a previous page to lightbox
+
+#### Lightbox.getNextPage()
+Gets the next page number to lightbox
+
+#### Lightbox.getPrevPage()
+Gets the previous page number to lightbox
+
+#### Lightbox.getImages()
+Gets the images contained in the lightbox
+
+#### Lightbox.getResponse()
+Returns the raw response from the API server
+
+#### Lightbox.toJSON()
+Returns the full object details in JSON
+
+### Search
+
+#### Search.hasNextPage()
+Determines if there is another page to search
+
+#### Search.hasPrevPage()
+Determines if there is a previous page to search
+
+#### Search.getNextPage()
+Gets the next page number to search
+
+#### Search.getPrevPage()
+Gets the previous page number to search
+
+#### Search.getImages()
+Gets the images contained in the search
+
+#### Search.getResponse()
+Returns the raw response from the API server
+
+#### Search.toJSON()
+Returns the full object details in JSON
+
+### Category
+
+#### Category.getResponse()
+Returns the raw response from the API server
+
+#### Category.toJSON()
+Returns the full object details in JSON
 
 ## Examples
 
