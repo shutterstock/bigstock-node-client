@@ -1,11 +1,11 @@
 {
   "author": "Thomas Lackemann",
-  "name": "bigstock-client-node",
+  "name": "bigstock-node-client",
   "description": "Node API Client for Bigstock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shutterstock/bigstock-client-node.git"
+    "url": "https://github.com/shutterstock/bigstock-node-client.git"
   },
   "main": "./lib/bigstock-client-node",
   "dependencies": {
