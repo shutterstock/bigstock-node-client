@@ -17,5 +17,11 @@
   "engines": {
     "node": "0.10.*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [],
+  "homepage": "https://github.com/shutterstock/bigstock-node-client",
+  "bugs": "https://github.com/shutterstock/bigstock-node-client/issues",
+  "contributors": [
+    "Thomas Lackemann"
+  ]
 }
