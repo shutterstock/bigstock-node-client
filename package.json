@@ -1,7 +1,7 @@
 {
   "author": "Thomas Lackemann",
   "name": "bigstock-node-client",
-  "description": "Node API Client for Bigstock",
+  "description": "A node.js client to use with Bigstock, an easy-to-use marketplace for stock images.",
   "version": "1.0.2",
   "repository": {
     "type": "git",
@@ -17,5 +17,11 @@
   "engines": {
     "node": "0.10.*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["node", "bigstock", "api"],
+  "homepage": "https://github.com/shutterstock/bigstock-node-client",
+  "bugs": "https://github.com/shutterstock/bigstock-node-client/issues",
+  "contributors": [
+    "Thomas Lackemann"
+  ]
 }
