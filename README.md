@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This repo is no longer publicly supported.
+
 # Bigstock API Client
 
 A node.js client to use with Bigstock
